@@ -23,6 +23,13 @@
 console.log(isBlockWord('BATCH') === true);      // true
 console.log(isBlockWord('BUTCH') === false);      // false
 console.log(isBlockWord('jest') === true);       // true
+
+
+console.log(isBlockWord('floW') === true);       // true
+console.log(isBlockWord('APPLE') === false);      // false
+console.log(isBlockWord('apple') === false);      // false
+console.log(isBlockWord('apPLE') === false);      // false
+console.log(isBlockWord('Box') === false);        // false
 // Data Structures
 // * blocks = {letters: ['B', 'O'], used: false}, ....
 // Algorithm
