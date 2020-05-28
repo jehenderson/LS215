@@ -34,6 +34,5 @@ console.log(shorthand(['104..2']));
 // * The input of the data at each array element should be sanitized from string
 
 // Algorithm
-// * For each element in the array, create a range of numbers starting at the
-// * base of the shorthand and incrementing by 1 until the units/tens etc digit
-// * matches the range end
+// * For each element in the array, iterate over the chars, if it is a digit,
+// * 
